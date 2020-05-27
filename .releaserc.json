@@ -53,7 +53,7 @@
           "linkReferences": true,
           "commit": "commits",
           "issue": "issues",
-          "includeDetails": true,
+          "includeDetails": false,
           "ignoreReverted": false
         },
         "linkCompare": true,
