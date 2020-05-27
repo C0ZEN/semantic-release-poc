@@ -1,9 +1,7 @@
 const parserOpts = require('./release/parser-opts');
-const writerOpts = require('./release/writer-opts');
 
 module.exports = {
   parserOpts,
-  writerOpts,
   branches: [
     'master'
   ],
