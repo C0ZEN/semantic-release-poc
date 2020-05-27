@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [2.17.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.16.0...2.17.0) (2020-05-27)
+
+
+### :rocket: Features
+
+* **release:** customize the preset ([775fd5a](https://github.com/C0ZEN/semantic-release-poc/commit/775fd5a4a882775b426786dd0f4a48a603621507))
+
 ## [2.16.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.15.0...2.16.0) (2020-05-27)
 
 
