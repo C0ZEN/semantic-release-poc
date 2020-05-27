@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [2.12.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.11.0...2.12.0) (2020-05-27)
+
+
+### Features
+
+* **release:** this is just a make sure that this is working ([85bf1af](https://github.com/C0ZEN/semantic-release-poc/commit/85bf1af8fa6401d422b7befb3f411626e9802f04))
+
 # [2.11.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.10.0...2.11.0) (2020-05-27)
 
 
