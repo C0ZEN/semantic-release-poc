@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [2.10.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.9.0...2.10.0) (2020-05-27)
+
+
+### Features
+
+* **release:** try to use js config 2 ([32fe45b](https://github.com/C0ZEN/semantic-release-poc/commit/32fe45b092d2a231774c27567e459cdf86bd9e12))
+
 # [2.9.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.8.0...2.9.0) (2020-05-27)
 
 
