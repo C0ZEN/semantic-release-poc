@@ -6,7 +6,7 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "conventionalcommits",
+        "preset": "angular",
         "releaseRules": [
           {
             "type": "feat",
@@ -41,21 +41,21 @@
             "BREAKING"
           ]
         },
-        "writerOpts": {
-          "title": "this_is_the_title",
-          "host": "https://github.com",
-          "commitsSort": [
-            "subject",
-            "scope"
-          ],
-          "owner": "C0ZEN",
-          "repoUrl": "https://github.com/C0ZEN/semantic-release-poc",
-          "linkReferences": true,
-          "commit": "commits",
-          "issue": "issues",
-          "includeDetails": false,
-          "ignoreReverted": false,
-          "transform": "() => 'hello'"
+        "presetConfig": {
+          "types": [
+            {
+              "type": "feat",
+              "section": ":rocket: Features"
+            },
+            {
+              "type": "fix",
+              "section": ":bug: Bug Fixes"
+            },
+            {
+              "type": "perf",
+              "section": ":zap: Performance Improvements"
+            }
+          ]
         },
         "linkCompare": true,
         "linkReferences": true,
