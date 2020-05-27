@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [2.13.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.12.0...2.13.0) (2020-05-27)
+
+
+### Features
+
+* **release:** add emoticon for features ([cfd8f67](https://github.com/C0ZEN/semantic-release-poc/commit/cfd8f67b140dc990c28cd9eb43c608ef6fda9526))
+
 # [2.12.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.11.0...2.12.0) (2020-05-27)
 
 
