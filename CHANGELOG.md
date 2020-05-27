@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [2.14.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.13.0...2.14.0) (2020-05-27)
+
+
+### Features
+
+* **release:** fuck ([3d3bba3](https://github.com/C0ZEN/semantic-release-poc/commit/3d3bba3ed67a25dcd735cb1da36f3ec05f13c18a))
+
 # [2.13.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.12.0...2.13.0) (2020-05-27)
 
 
