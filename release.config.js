@@ -34,27 +34,7 @@ module.exports = {
         }
       }
     ],
-    [
-      '@semantic-release/release-notes-generator',
-      {
-        parserOpts: {
-          noteKeywords: [
-            'BREAKING CHANGE',
-            'BREAKING CHANGES',
-            'BREAKING'
-          ]
-        },
-        writerOpts: {
-          host: 'https://github.com',
-          commitsSort: [
-            'subject',
-            'scope'
-          ],
-          owner: 'C0ZEN',
-          repoUrl: 'https://github.com/C0ZEN/semantic-release-poc'
-        }
-      }
-    ],
+    '@semantic-release/release-notes-generator',
     [
       '@semantic-release/changelog',
       {
@@ -73,9 +53,7 @@ module.exports = {
         message: 'build(release): new version ${nextRelease.version}'
       }
     ],
-    [
-      '@semantic-release/github'
-    ]
+    '@semantic-release/github'
   ],
   dryRun: false,
   ci: true,
