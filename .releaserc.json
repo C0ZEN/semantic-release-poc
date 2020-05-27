@@ -6,7 +6,7 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "angular",
+        "preset": "conventionalcommits",
         "releaseRules": [
           {
             "type": "feat",
@@ -33,7 +33,7 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "angular",
+        "preset": "conventionalcommits",
         "parserOpts": {
           "noteKeywords": [
             "BREAKING CHANGE",
@@ -81,13 +81,11 @@
         "message": "build(release): new version ${nextRelease.version}"
       }
     ],
-    [
-      "@semantic-release/github"
-    ]
+    "@semantic-release/github"
   ],
   "dryRun": false,
   "ci": true,
-  "preset": "angular",
+  "preset": "conventionalcommits",
   "debug": true,
   "tagFormat": "${version}"
 }
