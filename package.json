@@ -4,7 +4,8 @@
   "description": "Proof-of-concept for using [semantic-release](https://github.com/semantic-release/semantic-release) to automatically enforce Semantic Versioning and create changelogs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semver": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/cisasteelersfan/semantic-release-poc#readme",
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^3.3.7",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.7",
     "semantic-release": "^15.13.24"
   }
 }
