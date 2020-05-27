@@ -1,5 +1,15 @@
 # Semantic Versioning Changelog
 
+## [2.16.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.15.0...2.16.0) (2020-05-27)
+
+
+### feat
+
+* **release:** use conventionalcommits ([](https://github.com/C0ZEN/semantic-release-poc/commit/8b002591a3813d0631e556e54b02b00427c68ff2))
+
+
+* Merge remote-tracking branch 'origin/master' ([](https://github.com/C0ZEN/semantic-release-poc/commit/fd8eb61f9038af45868f36d8915bbcd91ab319ac))
+
 # [2.15.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.14.0...2.15.0) (2020-05-27)
 
 
