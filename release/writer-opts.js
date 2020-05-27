@@ -34,7 +34,7 @@ function getWriterOpts() {
       });
 
       if (commit.type === 'feat') {
-        commit.type = 'Features';
+        commit.type = 'Features :sparkles:';
       } else if (commit.type === 'fix') {
         commit.type = 'Bug Fixes';
       } else if (commit.type === 'perf') {

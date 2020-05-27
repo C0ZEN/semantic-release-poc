@@ -1,7 +1,9 @@
 const parserOpts = require('./release/parser-opts');
+const writerOpts = require('./release/writer-opts');
 
 module.exports = {
   parserOpts,
+  writerOpts,
   branches: [
     'master'
   ],
@@ -43,24 +45,14 @@ module.exports = {
           ]
         },
         writerOpts: {
-          title: 'this_is_the_title',
           host: 'https://github.com',
           commitsSort: [
             'subject',
             'scope'
           ],
           owner: 'C0ZEN',
-          repoUrl: 'https://github.com/C0ZEN/semantic-release-poc',
-          linkReferences: true,
-          commit: 'commits',
-          issue: 'issues',
-          includeDetails: false,
-          ignoreReverted: false
-        },
-        linkCompare: true,
-        linkReferences: true,
-        commit: 'commit',
-        issue: 'issues'
+          repoUrl: 'https://github.com/C0ZEN/semantic-release-poc'
+        }
       }
     ],
     [
