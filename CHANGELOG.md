@@ -1,5 +1,13 @@
 # Semantic Versioning Changelog
 
+# [2.5.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.4.0...2.5.0) (2020-05-27)
+
+
+### Features
+
+* **release:** add a bunch of options ([981c923](https://github.com/C0ZEN/semantic-release-poc/commit/981c923f7c15c43f81200b9d453163b5e487faa8))
+* **release:** add custom scripts ([0bea45d](https://github.com/C0ZEN/semantic-release-poc/commit/0bea45d2da67bb4d165411656f8948c1b639f4a1))
+
 # [2.4.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.3.1...2.4.0) (2020-05-27)
 
 
