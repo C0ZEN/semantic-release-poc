@@ -1,5 +1,15 @@
 # Semantic Versioning Changelog
 
+# [2.7.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.6.0...2.7.0) (2020-05-27)
+
+
+* Merge remote-tracking branch 'origin/master' ([](https://github.com/C0ZEN/semantic-release-poc/commit/94575616ed53fb1b9c4fd420b71423fef8bea49e))
+
+
+### feat
+
+* **release:** just testing something else ([](https://github.com/C0ZEN/semantic-release-poc/commit/020041641e67a96995546b1b007855e261da22f5))
+
 # [2.6.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.5.0...2.6.0) (2020-05-27)
 
 
