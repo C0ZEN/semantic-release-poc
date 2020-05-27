@@ -1,9 +1,17 @@
 parserOpts = {
   mergePattern: /^Merge pull request #(\d+) from (.*)$/,
-  mergeCorrespondence: ["id", "source"]
+  mergeCorrespondence: [
+    'id',
+    'source'
+  ]
 };
 
-releaseRules = [{ type: "refactor", release: "patch" }];
+releaseRules = [
+  {
+    type: 'refactor',
+    release: 'patch'
+  }
+];
 
 // Copied from https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/writer-opts.js#L27
 // and modified to support adding all commit types to the release notes
@@ -63,7 +71,7 @@ customTransform = (commit, context) => {
       commit.subject = commit.subject.replace(
         /\B@([a-z0-9](?:-?[a-z0-9/]){0,38})/g,
         (_, username) => {
-          if (username.includes("/")) {
+          if (username.includes('/')) {
             return `@${username}`;
           }
 
@@ -87,94 +95,93 @@ customTransform = (commit, context) => {
 
 module.exports = {
   branches: [
-    "master"
+    'master'
   ],
   plugins: [
     [
-      "@semantic-release/commit-analyzer",
+      '@semantic-release/commit-analyzer',
       {
-        preset: "angular",
+        preset: 'angular',
         releaseRules: [
           {
-            "type": "feat",
-            "release": "minor"
+            type: 'feat',
+            release: 'minor'
           },
           {
-            "type": "fix",
-            "release": "patch"
+            type: 'fix',
+            release: 'patch'
           },
           {
-            "type": "perf",
-            "release": "patch"
+            type: 'perf',
+            release: 'patch'
           }
         ],
-        "parserOpts": {
-          "noteKeywords": [
-            "BREAKING CHANGE",
-            "BREAKING CHANGES",
-            "BREAKING"
+        parserOpts: {
+          noteKeywords: [
+            'BREAKING CHANGE',
+            'BREAKING CHANGES',
+            'BREAKING'
           ]
         }
       }
     ],
     [
-      "@semantic-release/release-notes-generator",
+      '@semantic-release/release-notes-generator',
       {
-        "preset": "angular",
-        "parserOpts": {
-          "noteKeywords": [
-            "BREAKING CHANGE",
-            "BREAKING CHANGES",
-            "BREAKING"
+        preset: 'angular',
+        parserOpts: {
+          'noteKeywords': [
+            'BREAKING CHANGE',
+            'BREAKING CHANGES',
+            'BREAKING'
           ]
         },
-        "writerOpts": {
-          "title": "this_is_the_title",
-          "host": "https://github.com",
-          "commitsSort": [
-            "subject",
-            "scope"
+        'writerOpts': {
+          title: 'this_is_the_title',
+          host: 'https://github.com',
+          commitsSort: [
+            'subject',
+            'scope'
           ],
-          "owner": "C0ZEN",
-          "repoUrl": "https://github.com/C0ZEN/semantic-release-poc",
-          "linkReferences": true,
-          "commit": "commits",
-          "issue": "issues",
-          "includeDetails": false,
-          "ignoreReverted": false,
-          "transform": "() => 'hello'"
+          owner: 'C0ZEN',
+          repoUrl: 'https://github.com/C0ZEN/semantic-release-poc',
+          linkReferences: true,
+          commit: 'commits',
+          issue: 'issues',
+          includeDetails: false,
+          ignoreReverted: false
         },
-        "linkCompare": true,
-        "linkReferences": true,
-        "commit": "commit",
-        "issue": "issues"
+        linkCompare: true,
+        linkReferences: true,
+        commit: 'commit',
+        issue: 'issues'
       }
     ],
     [
-      "@semantic-release/changelog",
+      '@semantic-release/changelog',
       {
-        "changelogFile": "CHANGELOG.md",
-        "changelogTitle": "# Semantic Versioning Changelog"
+        changelogFile: 'CHANGELOG.md',
+        changelogTitle: '# Semantic Versioning Changelog'
       }
     ],
     [
-      "@semantic-release/git",
+      '@semantic-release/git',
       {
-        "assets": [
-          "package.json",
-          "package-lock.json",
-          "CHANGELOG.md"
+        assets: [
+          'package.json',
+          'package-lock.json',
+          'CHANGELOG.md'
         ],
-        "message": "build(release): new version ${nextRelease.version}"
+        message: 'build(release): new version ${nextRelease.version}'
       }
     ],
     [
-      "@semantic-release/github"
+      '@semantic-release/github'
     ]
   ],
-  "dryRun": false,
-  "ci": true,
-  "preset": "angular",
-  "debug": true,
-  "tagFormat": "${version}"
+  dryRun: false,
+  ci: true,
+  preset: 'angular',
+  debug: true,
+  tagFormat: '${version}'
 };
