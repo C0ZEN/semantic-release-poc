@@ -42,11 +42,19 @@
           ]
         },
         "writerOpts": {
+          "title": "this_is_the_title",
+          "host": "https://github.com",
           "commitsSort": [
             "subject",
             "scope"
           ],
-          "owner": "C0ZEN"
+          "owner": "C0ZEN",
+          "repoUrl": "https://github.com/C0ZEN/semantic-release-poc",
+          "linkReferences": true,
+          "commit": "commits",
+          "issue": "issues",
+          "includeDetails": true,
+          "ignoreReverted": false
         },
         "linkCompare": true,
         "linkReferences": true,
