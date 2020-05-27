@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [2.11.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.10.0...2.11.0) (2020-05-27)
+
+
+### Features
+
+* **release:** mix with angular ([178f40e](https://github.com/C0ZEN/semantic-release-poc/commit/178f40e49d2e66765c20212fe4c2bfda784b9ca9))
+
 # [2.10.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.9.0...2.10.0) (2020-05-27)
 
 
