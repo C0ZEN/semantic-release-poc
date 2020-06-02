@@ -6,7 +6,7 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "angular",
+        "config": "@sonia-corporation/conventional-changelog",
         "releaseRules": [
           {
             "type": "feat",
@@ -33,7 +33,7 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "conventionalcommits",
+        "config": "@sonia-corporation/conventional-changelog",
         "parserOpts": {
           "noteKeywords": [
             "BREAKING CHANGE",
@@ -85,7 +85,6 @@
   ],
   "dryRun": false,
   "ci": true,
-  "preset": "conventionalcommits",
   "debug": true,
   "tagFormat": "${version}"
 }
