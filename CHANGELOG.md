@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [2.18.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.17.0...2.18.0) (2020-06-02)
+
+
+### :rocket: Features
+
+* **release:** use my own package instead ([932756d](https://github.com/C0ZEN/semantic-release-poc/commit/932756d45e7de135bc417b737c8fa52bd62f491d))
+
 ## [2.17.0](https://github.com/C0ZEN/semantic-release-poc/compare/2.16.0...2.17.0) (2020-05-27)
 
 
